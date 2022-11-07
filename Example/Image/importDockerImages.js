@@ -1,7 +1,7 @@
 let Docker = require('dockerode')
 let docker = new Docker({host:'abstr.net', port:30001});
 
-docker.importImage("export.tar", {repo:"sansam1010/testimage"})
+docker.importImage("../..//file/image/export.tar", {repo:"sansam1010/testimage"})
     .then(function (data) {
         console.log(data)
     })
