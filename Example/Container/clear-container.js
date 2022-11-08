@@ -5,7 +5,7 @@ let docker = new Docker({host: 'abstr.net', port: 30001});
 async function getContainerIds() {
     let data = [];
     try {
-        let containers = await docker.listContainers({all: true}, _ => _);
+        let containers = await docker.listContainers({all: true});
         for (let info of containers) {
             data.push(info.Id);
         }
