@@ -1,13 +1,17 @@
 {
-  "name": "docker",
+  "name": "docker-study",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker-run": "node example/docker-run.js",
+    "import-images": "node example/image/import-images.js",
+    "clear-container": "node example/container/clear-container.js",
+    "list-container-ids": "node example/container/list-container-ids.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "GyuBa",
   "license": "ISC",
   "dependencies": {
     "dockerode": "^3.3.4"
