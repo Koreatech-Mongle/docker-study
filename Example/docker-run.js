@@ -8,7 +8,7 @@ let image = docker.getImage(imageName);
 console.log(image);
 
 try {
-    let data = await docker.run(imageName, ['/bin/bash'], process.stdout, {}, {}, _ => _);
+    let data = await docker.run(imageName, ['/bin/bash'], process.stdout, {}, {});
     console.log('LOG', data);
 } catch (e) {
     console.error('ERROR', e);
