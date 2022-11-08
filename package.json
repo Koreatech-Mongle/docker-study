@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker-run": "node example_/docker-run.js",
-    "import-images": "node example_/image/import-images.js",
-    "clear-container": "node example_/container/clear-container.js",
-    "list-container-ids": "node example_/container/list-container-ids.js"
+    "docker-run": "node example/docker-run.js",
+    "import-images": "node example/image/import-images.js",
+    "clear-container": "node example/container/clear-container.js",
+    "list-container-ids": "node example/container/list-container-ids.js"
   },
   "keywords": [],
   "author": "GyuBa",
